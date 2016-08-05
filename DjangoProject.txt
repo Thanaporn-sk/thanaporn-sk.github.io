@@ -1,0 +1,17 @@
+Python step.
+1. install python
+2. create folder  for new project , cd that folder.
+3. create environment variable 
+    windows :: python -m venv myvenv
+4. activate 
+    myvenv\Scripts\activate
+5. install django
+    pip install django
+    
+6. create project
+   django-admin startproject mysite
+
+7. cd mysite
+8. python manage.py migrate
+9. python manage.py runserver
+10.  browse http://127.0.0.1:8000
